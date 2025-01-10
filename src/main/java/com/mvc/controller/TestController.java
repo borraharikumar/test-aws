@@ -5,10 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class TestController {
-	
+
 	@GetMapping
 	public String testMessge() {
-		return "wish";
+		System.err.println("TestController.testMessge()");
+		return "index";
 	}
 
 }
