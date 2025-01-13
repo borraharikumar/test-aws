@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TestController {
 
-	@GetMapping
+	@GetMapping("wish/bhogi")
 	public String testMessge() {
-		System.err.println("TestController.testMessge()");
 		return "index";
 	}
 
