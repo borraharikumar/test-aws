@@ -11,4 +11,9 @@ public class TestController {
 		return "index";
 	}
 
+	@GetMapping("profile/2v")
+	public String e2Profile() {
+		return "profile";
+	}
+
 }
